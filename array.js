@@ -72,6 +72,17 @@ if(books.includes("javascript")){
 
 // 3. Print a message to the console indicating whether each variable is an array or not.
 
+
+const name = "Md. Al Amin Islam";
+const age = 21;
+const info = ["Rahim", "Ranachandi", "kishorgong", "Nilphamry"];
+console.log(Array.isArray(name)); // false
+console.log(Array.isArray(age)); // false
+console.log(Array.isArray(info)); // true
+
+
+
+
 // ----
 
 // ### 5. Combining Arrays
