@@ -9,44 +9,52 @@
 // 4. console log the final array
 
 
----
-### 2. Add or remove elements
-1. Declare an array of 3 tourist destinations
-2. Add a new tourist destination to your tourist array
-3. Add two more to your array
-4. Remove the last tourist destination you have added
-5. display the final array as output
 
----
+const fruit = ["Apple", "Orange", "Lemon", "Pineapple", "Banana"];
+console.log(fruit[3]);
+fruit[2] = "Jambura";
+console.log(fruit);
 
-### 3. Checking Array Membership with ‘includes’
 
-**Instructions:**
 
-1. Create an array of books containing different book.
+// ---
+// ### 2. Add or remove elements
+// 1. Declare an array of 3 tourist destinations
+// 2. Add a new tourist destination to your tourist array
+// 3. Add two more to your array
+// 4. Remove the last tourist destination you have added
+// 5. display the final array as output
 
-2. Use the includes method to check if the array contains a javascript book.
+// ---
 
-3. Print a message to the console indicating whether the element is present in the array or not.
+// ### 3. Checking Array Membership with ‘includes’
 
----
+// **Instructions:**
 
-### 4. Checking if it's an Array
+// 1. Create an array of books containing different book.
 
-**Instructions:**
+// 2. Use the includes method to check if the array contains a javascript book.
 
-1. Create different variables, each containing either an array or a non-array value.
+// 3. Print a message to the console indicating whether the element is present in the array or not.
 
-2. Now use isArray to check if each variable is an array.
+// ---
 
-3. Print a message to the console indicating whether each variable is an array or not.
+// ### 4. Checking if it's an Array
 
-----
+// **Instructions:**
 
-### 5. Combining Arrays
+// 1. Create different variables, each containing either an array or a non-array value.
 
-**Instructions:**
+// 2. Now use isArray to check if each variable is an array.
 
-1. Create two arrays of your choice.
-2. Use the concat method to combine the two arrays into a new array.
-3. Print both the original arrays and the combined array using console.log().
+// 3. Print a message to the console indicating whether each variable is an array or not.
+
+// ----
+
+// ### 5. Combining Arrays
+
+// **Instructions:**
+
+// 1. Create two arrays of your choice.
+// 2. Use the concat method to combine the two arrays into a new array.
+// 3. Print both the original arrays and the combined array using console.log().
