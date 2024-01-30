@@ -25,6 +25,17 @@ console.log(fruit);
 // 4. Remove the last tourist destination you have added
 // 5. display the final array as output
 
+
+
+const touristDestination = ["shopnopuri", "vinnojogout", "gopirbagan"];
+touristDestination.push("Ramsagur");
+touristDestination.push("Nilsagur", "Bagan");
+touristDestination.pop();
+console.log(touristDestination);  
+
+
+
+
 // ---
 
 // ### 3. Checking Array Membership with ‘includes’
