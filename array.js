@@ -48,6 +48,18 @@ console.log(touristDestination);
 
 // 3. Print a message to the console indicating whether the element is present in the array or not.
 
+
+
+const books = ["Bangla", "English", "physic", "javascript", "java"];
+if(books.includes("javascript")){
+      console.log("javascript is present");
+}else{
+      console.log("javascript is not present");
+}
+
+
+
+
 // ---
 
 // ### 4. Checking if it's an Array
